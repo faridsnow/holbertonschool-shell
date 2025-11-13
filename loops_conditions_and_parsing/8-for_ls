@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# List files showing name after first dash
+for item in *; do echo "${item#*-}"; done
